@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "react": "16.7.0-alpha.2",
+    "react-dom": "16.7.0-alpha.2",
+    "react-scripts": "2.1.1",
+    "react-testing-library": "^5.4.2",
+    "jest": "23.6.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,5 +23,10 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "prettier": {
+    "singleQuote": true,
+    "printWidth": 80,
+    "tabWidth": 4
+  }
 }
